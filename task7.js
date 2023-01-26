@@ -70,4 +70,4 @@ parentNode = document.getElementById('items');
 // console.log(parentNode.innerHTML);
 
 put = ' <li class="list-group-item">HELLO WORLD</li>' + parentNode.innerHTML ; 
-console.log(put) ;
+console.log(put);
