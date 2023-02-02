@@ -65,7 +65,7 @@
         deletebutton.value = "Delete"
         deletebutton.onclick = () => {
             localStorage.removeItem(obj.email)
-            parentElem.appendChild(childElem)
+            parentElem.removeChild(childElem)
         }
 
         childElem.appendChild(deletebutton)
